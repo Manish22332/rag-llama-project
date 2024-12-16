@@ -1,0 +1,5 @@
+transformers==4.28.0
+langchain==0.94.1
+faiss-cpu==1.7.3
+sentence-transformers==2.2.2
+gradio==3.24.1
