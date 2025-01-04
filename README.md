@@ -15,13 +15,14 @@ Gradio for a web-based interface
 The goal is to retrieve the most relevant sections from research papers and generate accurate answers using LLaMA 2.
 
 Project Structure
-
+```
 rag_project/
   ├── data/                  # Folder for research papers
   ├── faiss_index/           # Folder for the FAISS index
   ├── rag_system.py          # Main Python script
   ├── requirements.txt       # Python dependencies
   └── README.md              # Project documentation
+```
 
 Setup and Installation
 
@@ -30,8 +31,9 @@ Setup and Installation
 Python 3.8+
 
 Install dependencies from requirements.txt:
-
+```bash
 pip install -r requirements.txt
+```
 
 2. Download LLaMA 2 Model
 
@@ -42,7 +44,7 @@ Ensure you have access to the LLaMA 2 model through Hugging Face. You can modify
 Place your research papers in the ./data directory as PDF files.
 
 4. Run the System
-
+```bash
 python rag_system.py
-
+```
 This will launch a Gradio interface where you can enter your question and get an answer based on the most relevant documents.
